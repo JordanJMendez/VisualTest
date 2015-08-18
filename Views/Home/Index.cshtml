@@ -1,0 +1,551 @@
+﻿<div>
+    <div id="box-group-single" class="box-group-one">
+    </div>
+        <div id="box-group-multiple" class="gridster">
+    </div>
+</div>
+
+<div class="box box-closed box-normal box-column"
+     id="box-todo" data-row=" 1" data-col="1" data-sizex="1" data-sizey="1">
+    <h4 class="box-header round-top">
+        My To Do <span class="sub-title">today this week </span>
+        <a class="box-btn" title="close" onclick="doClose('#box-todo');">
+            <img href=" #" src="~/Content/images/box-close-icon.png" />
+        </a>
+        <a class="box-btn" title="maximize" onclick="doResizeBox('#box-todo');">
+            <img href=" #" src="~/Content/images/box-max-icon.png" />
+        </a>
+        <a class="box-btn" title="sort">
+            <img href="#" src="~/Content/images/box-min-icon.png" />
+        </a>
+    </h4>
+    <div class="box-container">
+        <div class="box-content">
+            <div class="dashboard-todo">
+                <ul class="box-item-list">
+                    <li class="box-item-section">
+                        <span class="name">Today</span>
+                    </li>
+                    <div id="projects-todo-today-container">
+
+                    </div>
+                    
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 1</span><br />
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 2</span><br />
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    
+
+                    <li class="box-item-section">
+                        <span class="name">This Week</span>
+                    </li>
+                    <div id="projects-todo-thisweek-container">
+
+                    </div>
+
+                    
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 3</span><br />
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 4</span><br />
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 4</span><br />
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 5</span><br />
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 6</span><br />
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 7</span><br />
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 8</span><br />
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="box box-closed box-normal box-column" id="box-overdue" data-row=" 1" data-col="2" data-sizex="1" data-sizey="1">
+    <h4 class="box-header round-top">
+        Overdue
+        <a class="box-btn" title="close" onclick="doClose('#box-overdue');">
+            <img href="#" src="~/Content/images/box-close-icon.png" />
+        </a>
+        <a class="box-btn" title="maximize" onclick="doResizeBox('#box-overdue');">
+            <img href=" #" src="~/Content/images/box-max-icon.png" />
+        </a>
+        <a class="box-btn" title="sort">
+            <img href="#" src="~/Content/images/box-min-icon.png" />
+        </a>
+    </h4>
+    <div class="box-container">
+        <div class="box-content">
+            <div id="dashboard-overdue">
+                <ul class="box-item-list">
+                    <li class="box-item-section">
+                        <span class="name">Today</span>
+                    </li>
+                    <div id="projects-due-today-container">
+
+                    </div>
+                    
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 1</span><br />
+                            <img src="~/Content/images/image-close.png">
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 2</span><br />
+                            <img src="~/Content/images/image-close.png">
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    
+                    <li class="box-item-section">
+                        <span class="name">This Week</span>
+                    </li>
+                    <div id="projects-due-thisweek-container">
+
+                    </div>
+                    
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 3</span><br />
+                            <img src="~/Content/images/image-close.png">
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 4</span><br />
+                            <img src="~/Content/images/image-close.png">
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 4</span><br />
+                            <img src="~/Content/images/image-close.png">
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 5</span><br />
+                            <img src="~/Content/images/image-close.png">
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 6</span><br />
+                            <img src="~/Content/images/image-close.png">
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 7</span><br />
+                            <img src="~/Content/images/image-close.png">
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    <li class="box-item">
+                        <a class="noeffect" href="#">
+                            <span class="title">Project 8</span><br />
+                            <img src="~/Content/images/image-close.png">
+                            <span class="name">Wire Frame for project management dashboard</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="box box-closed box-normal box-column" id="box-issues" data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+    <h4 class="box-header round-top">
+        Issues and Risks
+        <a class="box-btn" title="close" onclick="doClose('#box-issues');">
+            <img href=" #" src="~/Content/images/box-close-icon.png" />
+        </a>
+        <a class="box-btn" title="maximize" onclick="doResizeBox('#box-issues');">
+            <img href=" #" src="~/Content/images/box-max-icon.png" />
+        </a>
+        <a class="box-btn" title="sort">
+            <img href="#" src="~/Content/images/box-min-icon.png" />
+        </a>
+    </h4>
+    <div class="box-container">
+        <div class="box-content">
+            <div id="dashboard-issues-risks">
+                <ul class="box-item-list">
+                    <li class="box-item-section">
+                        <span class="name">Today</span>
+                    </li>
+                    <li class="box-item box-item-issues">
+                        <a class="noeffect" href="#">
+                            <span class="title">A test issue for Jack -</span>
+                            <span class="name issue-name-owner">Jack Shephard</span><br />
+                            <span class="name">Resource</span><br />
+                            <span class="name">Severity</span><br />
+                            <span class="name">Assign Date</span>
+                        </a>
+                    </li>
+                    <li class="box-item box-item-issues">
+                        <a class="noeffect" href="#">
+                            <span class="title">A test issue for Jack -</span>
+                            <span class="name issue-name-owner">Jack Shephard</span><br />
+                            <span class="name">Resource</span><br />
+                            <span class="name">Severity</span><br />
+                            <span class="name">Assign Date</span>
+                        </a>
+                    </li>
+                    <li class="box-item box-item-issues">
+                        <a class="noeffect" href="#">
+                            <span class="title">A test issue for Jack -</span>
+                            <span class="name issue-name-owner">Jack Shephard</span><br />
+                            <span class="name">Resource</span><br />
+                            <span class="name">Severity</span><br />
+                            <span class="name">Assign Date</span>
+                        </a>
+                    </li>
+                    <li class="box-item box-item-issues">
+                        <a class="noeffect" href="#">
+                            <span class="title">A test issue for Jack -</span>
+                            <span class="name issue-name-owner">Jack Shephard</span><br />
+                            <span class="name">Resource</span><br />
+                            <span class="name">Severity</span><br />
+                            <span class="name">Assign Date</span>
+                        </a>
+                    </li>
+                    <li class="box-item box-item-issues">
+                        <a class="noeffect" href="#">
+                            <span class="title">A test issue for Jack -</span>
+                            <span class="name issue-name-owner">Jack Shephard</span><br />
+                            <span class="name">Resource</span><br />
+                            <span class="name">Severity</span><br />
+                            <span class="name">Assign Date</span>
+                        </a>
+                    </li>
+                    <li class="box-item box-item-issues">
+                        <a class="noeffect" href="#">
+                            <span class="title">A test issue for Jack -</span>
+                            <span class="name issue-name-owner">Jack Shephard</span><br />
+                            <span class="name">Resource</span><br />
+                            <span class="name">Severity</span><br />
+                            <span class="name">Assign Date</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="box box-closed box-normal box-column" id="box-approvals" data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+    <h4 class="box-header round-top">
+        Approvals
+        <a class="box-btn box-btn-close" data-widget="box-approvals" title="close">
+            <img href="#" src="~/Content/images/box-close-icon.png" />
+        </a>
+        <a class="box-btn box-btn-resize" data-widget="box-approvals" title="resize">
+            <img href=" #" src="~/Content/images/box-max-icon.png" />
+        </a>
+        <a class="box-btn box-btn-minimize" data-widget="box-approvals" title="minimize">
+            <img href="#" src="~/Content/images/box-min-icon.png" />
+        </a>
+    </h4>
+    <div class="box-container">
+        <div class="box-content">
+            <div id="dashboard-approvals">
+                <ul class="box-item-list">
+                    <li class="box-item-section">
+                        <span class="name">Awaiting</span>
+                    </li>
+                    <div id="projects-awaiting-container">
+
+                    </div>
+                    <li class="box-item-section">
+                        <span class="name">Approved</span>
+                    </li>
+                    <div id="projects-approved-container">
+
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="box box-closed box-large box-column" id="box-activity" data-row="1" data-col="3" data-sizex="1" data-sizey="2">
+    <h4 class="box-header round-top">
+        Activity Stream
+        <a class="box-btn" title="close" onclick="doClose('#box-activity');">
+            <img href=" #" src="~/Content/images/box-close-icon.png" />
+        </a>
+        <a class="box-btn" title="maximize" onclick="doResizeBox('#box-activity');">
+            <img href=" #" src="~/Content/images/box-max-icon.png" />
+        </a>
+        <a class="box-btn" title="sort">
+            <img href="#" src="~/Content/images/box-min-icon.png" />
+        </a>
+    </h4>
+    <div class="box-container box-container-large">
+        <div class="box-content">
+            <div id="dashboard-activity-stream">
+                <ul class="box-item-list">
+                    <li class="box-item box-item-tasks">
+                        <a class="noeffect" href="#">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="~/Content/images/john-avatar.png" />
+                                    </td>
+                                    <td>
+                                        <div class="activity-stream-info">
+                                            <span class="title">john:</span>
+                                            <span class="activity">Assigned Task</span>
+                                            <span class="name">Launch of new website scheduled assigned to</span>
+                                            <span class="assigned">you + Leon, 15:00pm</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+                        <table class="comment-container">
+                            <tr>
+                                <td>
+                                    <input class="comment-input" type="text" placeholder="Write a comment">
+                                    <img src="~/Content/images/broadcast-plus.png">
+                                </td>
+                            </tr>
+                        </table>
+
+                    </li>
+                    <li class="box-item box-item-tasks">
+                        <a class="noeffect" href="#">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="~/Content/images/john-avatar.png" />
+                                    </td>
+                                    <td>
+                                        <div class="activity-stream-info">
+                                            <span class="title">john:</span>
+                                            <span class="activity">Assigned Task</span>
+                                            <span class="name">Launch of new website scheduled assigned to</span>
+                                            <span class="assigned">you + Leon, 15:00pm</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+                        <table class="comment-container text-center">
+                            <tr>
+                                <td>
+                                    <button class="show-more" type="button">Show more updates</button>
+                                </td>
+                            </tr>
+                        </table>
+                        <a class="noeffect" href="#">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="~/Content/images/john-avatar.png" />
+                                    </td>
+                                    <td>
+                                        <div class="activity-stream-info">
+                                            <span class="title">john:</span>
+                                            <span class="activity">Assigned Task</span>
+                                            <span class="name">Launch of new website scheduled assigned to</span>
+                                            <span class="assigned">you + Leon, 15:00pm</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+                        <table class="comment-container">
+                            <tr>
+                                <td>
+                                    <input class="comment-input" type="text" placeholder="Write a comment">
+                                    <img src="~/Content/images/broadcast-plus.png">
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="box-item box-item-tasks">
+                        <a class="noeffect" href="#">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="~/Content/images/john-avatar.png" />
+                                    </td>
+                                    <td>
+                                        <div class="activity-stream-info">
+                                            <span class="title">john:</span>
+                                            <span class="activity">Assigned Task</span>
+                                            <span class="name">Launch of new website scheduled assigned to</span>
+                                            <span class="assigned">you + Leon, 15:00pm</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+                        <table class="comment-container text-center">
+                            <tr>
+                                <td>
+                                    <button class="show-more" type="button">Show more updates</button>
+                                </td>
+                            </tr>
+                        </table>
+                        <a class="noeffect" href="#">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="~/Content/images/john-avatar.png" />
+                                    </td>
+                                    <td>
+                                        <div class="activity-stream-info">
+                                            <span class="title">john:</span>
+                                            <span class="activity">Assigned Task</span>
+                                            <span class="name">Launch of new website scheduled assigned to</span>
+                                            <span class="assigned">you + Leon, 15:00pm</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+                        <table class="comment-container text-center">
+                            <tr>
+                                <td>
+                                    <button class="show-more" type="button">Show more updates</button>
+                                </td>
+                            </tr>
+                        </table>
+                        <a class="noeffect" href="#">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="~/Content/images/john-avatar.png" />
+                                    </td>
+                                    <td>
+                                        <div class="activity-stream-info">
+                                            <span class="title">john:</span>
+                                            <span class="activity">Assigned Task</span>
+                                            <span class="name">Launch of new website scheduled assigned to</span>
+                                            <span class="assigned">you + Leon, 15:00pm</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+                        <table class="comment-container">
+                            <tr>
+                                <td>
+                                    <input class="comment-input" type="text" placeholder="Write a comment">
+                                    <img src="~/Content/images/broadcast-plus.png">
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="box-item box-item-tasks">
+                        <a class="noeffect" href="#">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="~/Content/images/john-avatar.png" />
+                                    </td>
+                                    <td>
+                                        <div class="activity-stream-info">
+                                            <span class="title">john:</span>
+                                            <span class="activity">Assigned Task</span>
+                                            <span class="name">Launch of new website scheduled assigned to</span>
+                                            <span class="assigned">you + Leon, 15:00pm</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+                        <table class="comment-container">
+                            <tr>
+                                <td>
+                                    <input class="comment-input" type="text" placeholder="Write a comment">
+                                    <img src="~/Content/images/broadcast-plus.png">
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li class="box-item box-item-tasks">
+                        <a class="noeffect" href="#">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img src="~/Content/images/john-avatar.png" />
+                                    </td>
+                                    <td>
+                                        <div class="activity-stream-info">
+                                            <span class="title">john:</span>
+                                            <span class="activity">Assigned Task</span>
+                                            <span class="name">Launch of new website scheduled assigned to</span>
+                                            <span class="assigned">you + Leon, 15:00pm</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </a>
+                        <table class="comment-container">
+                            <tr>
+                                <td>
+                                    <input class="comment-input" type="text" placeholder="Write a comment">
+                                    <img src="~/Content/images/broadcast-plus.png">
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
